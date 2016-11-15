@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (authenticate(username, password)) {
                             onLoginSuccess();
                         } else {
-                            onLoginFailed("Wrong Password available");
+                            onLoginFailed("Wrong Password");
                         }
                         progressDialog.dismiss();
                     }
